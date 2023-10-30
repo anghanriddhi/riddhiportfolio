@@ -1,0 +1,17 @@
+.hero-glow-text {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    text-shadow: hsla(0, 0%, 100%, 0.6) -2px 2px 30px;
+}
+.shadow-2 {
+    --tw-shadow: 4px 3px 40px rgba(16, 33, 34, 0.06);
+    --tw-shadow-colored: 4px 3px 40px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.top-80 {
+    top: 23rem;
+}
+.fixed{
+    animation: top 1s linear;
+	/* background-color: white; */
+}

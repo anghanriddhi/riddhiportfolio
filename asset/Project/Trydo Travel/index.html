@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- swiper-css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- slick-slider -->
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!--favicon-->
+    <link rel="stylesheet" href="asset/css/all.min.css">
+    <script src="asset/js/tailwind.config.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#fa7452',
+                        seconary: '#ff7c5b',
+                        theme: '#FFF4E2',
+                    },
+                    fontFamily: {
+                        'jost': ['jost', 'sans-serif'],
+                        'cursiv': ['Satisfy', 'cursive'],
+                        'heading': ['Playfair Display', 'serif;']
+                    },
+                }
+            }
+        }
+    </script>
+    <title>Home 03 | Arid - Travel &amp; Tourism HTML/Tailwind CSS Template</title>
+</head>
+
+
+
+<header class="px-3 py-5 border-b-2 fixed border-white border-opacity-10 w-full z-50 ">
+    <div class="desktop-menu align-center ">
+        <div class="container mx-auto">
+            <div class="flex  justify-between items-center">
+                <div class="desk-btn ">
+                    <button class=" bg-primary   variant-2 py-4 px-10 text-white font-jost text-base">Book A Trip <i
+                            class="fa-solid fa-angle-right"></i></button>
+                </div>
+
+                <div class="main">
+                    <div class="main-menu items-center text-white hidden xl:flex">
+                        <div class="menu-one ">
+                            <ul class="flex font-jost text-base ">
+                                <li class="px-5 group relative "><a href="">HOME +</a>
+                                    <ul
+                                        class="nav-dropdown text-black absolute w-60 top-12 text-left block bg-white py-4 px-3 invisible group-hover:visible duration-300">
+                                        <li class="border-b p-2 "><a href="">HOME CLASSIC</a></li>
+                                        <li class="border-b p-2"><a href="">HOME DARK</a></li>
+                                        <li class="p-2"><a href="">HOME PARALLAX</a></li>
+                                    </ul>
+                                </li>
+                                <li class="px-5 group relative"><a href="">PAGES +</a>
+                                    <ul
+                                        class="nav-dropdown text-black absolute w-60 top-12 text-left block bg-white py-4 px-3 invisible group-hover:visible duration-300">
+                                        <li class="border-b p-2 "><a href="javascript:void(0)">ABOUT US</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">DESTINATION</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">GUIDS</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">GALLARY</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">FAQ</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">ERROR</a></li>
+                                        <li class="p-2"><a href="javascript:void(0)">SIGN UP/SIGN IN</a></li>
+                                    </ul>
+                                </li>
+                                <li class="px-5 group relative"><a href="">DESTINATION +</a>
+                                    <ul
+                                        class="nav-dropdown text-black absolute w-96 top-12 text-left block bg-white py-4 px-3 invisible group-hover:visible duration-300">
+                                        <div class="col-span-6">
+                                            <h3 class="border-b">BROWSE ALL DESTINATION</h3>
+                                            <div class="flex">
+                                                <div class="w-8/12">
+                                                    <ul class="grid grid-cols-3">
+                                                        <li><a href="javascript:void(0)">NEW YORK</a></li>
+                                                        <li><a href="javascript:void(0)">DUBAI</a></li>
+                                                        <li><a href="javascript:void(0)">SEATTLE</a></li>
+                                                        <li><a href="javascript:void(0)">LAS VEGAS</a></li>
+                                                        <li><a href="javascript:void(0)">ISTANBUL</a></li>
+                                                        <li><a href="javascript:void(0)">LONDON</a></li>
+                                                        <li><a href="javascript:void(0)">MIAMI</a></li>
+                                                        <li><a href="javascript:void(0)">MIAMI</a></li>
+                                                        <li><a href="javascript:void(0)">PARIS</a></li>
+                                                        <li><a href="javascript:void(0)">BALI</a></li>
+                                                        <li><a href="javascript:void(0)">VIYETNAM</a></li>
+                                                        <li><a href="javascript:void(0)">VIYETNAM</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="w-4/12">
+                                                    <img src="asset/images/offer-banner.webp">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <a href="" class=" max-w[50px]">
+                            <img src="asset/images/logo-2.png">
+                        </a>
+                        <div class="menu-two">
+                            <ul class="flex font-jost text-base">
+                                <li class="px-5 group relative"><a href="">BLOGS +</a>
+                                    <ul
+                                        class="nav-dropdown text-black absolute w-60 top-12 text-left block bg-white py-4 px-3 invisible group-hover:visible duration-300">
+                                        <li class="border-b p-2 "><a href="">BLOG LIST</a></li>
+                                        <li class="p-2"><a href="">BLOG DETAILS</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="px-5 group relative"><a href="">PACKAGES +</a>
+                                    <ul
+                                        class="nav-dropdown text-black absolute w-64 top-12 text-left block bg-white py-4 px-3 invisible group-hover:visible duration-300">
+                                        <li class="border-b p-2 "><a href="javascript:void(0)">PACKAGE LIST</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">PACKAGE LIST SIDEBAR</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">PACKAGE DETAILS LAYOIUT- I</a></li>
+                                        <li class="border-b p-2"><a href="javascript:void(0)">PACKAGE DETAILS LAYOIUT- II</a></li>
+                                        <li class="p-2"><a href="javascript:void(0)">PACKAGE DETAILS LAYOIUT- III</a></li>
+                                    </ul>
+                                </li>
+                                <li class="px-5"><a href="">CONTACT +</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-menu  flex">
+                    <div class="mobile-icon flex items-center">
+                        <div class="m-icon px-5 mx-5 text-white hover:text-primary">
+                            <i class="fa-solid fa-bag-shopping text-2xl mr-2 "></i><a href=""
+                                class="font-jost text-base ">Cart(01)</a>
+                        </div>
+                        <div class="flex flex-wrap items-center justify-center w-12 h-12 bg-primary rounded-full ">
+                            <i class="fa-regular fa-user text-white "></i>
+                        </div>
+                        <div class="bar hidden sm:flex xl:hidden px-4 ">
+                        <i class="fa-solid fa-bars text-3xl text-white"></i>
+                    </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!---------main-banner-start--------->
+<section class="main-banner h-screen bg-blend-multiply flex flex-wrap items-center justify-center bg-no-repeat  "
+    style="background: rgba(0,0,0,0.4) url(asset/images/main-banner.webp);">
+    <div class="container mx-auto">
+        <div class="banner-content text-center text-white font-jost lg:pb-40 pb-24 lg:pt-[260px] pt-48  relative">
+            <h1 class="text-7xl text-transparent font-semibold hero-glow-text xl:text-7xl lg:text-4xl  leading-1.2 ">Find Next Place To Visit.</h1>
+            <p class="text-2xl pt-4 leading-1.7">Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit.<br> Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the
+            </p>
+        </div>
+        <form action="" class="sm:w-full  text-center -mt-6 py-4 relative">
+            <div class="flex items-center lg:flex-row flex-col space-y-4 lg:space-y-0 lg:space-x-base">
+
+            <input type="text" placeholder="Where To?"
+                class="w-3/12 text-orange-500 py-4 px-16 border-2 relative flex-grow lg:w-auto md:w-full text-lg mr-4 border-orange-500 bg-transparent outline-none">
+            <div class="location absolute top-9 left-52 md:left-5 md:top-9">
+                <i class="fa-solid fa-location-dot text-orange-500 "></i>
+            </div>
+            <input type="text" placeholder="09/19/2023-09/19/2023"
+                class="w-3/12 text-orange-500 font-jost relative flex-grow lg:w-auto md:w-full mr-4 py-4 px-8 border-2 border-orange-500 bg-transparent text-lg outline-none"
+                id="">
+            <span class="section relative w-3/12  flex-grow lg:w-auto "><i
+                    class="fa-solid fa-person-walking absolute  text-primary top-1/2 translate-y-[-50%] left-32"></i>
+                <select id="Tour Type"
+                    class="py-4 font-jost text-primary px-16  border-2 mr-4 border-orange-500 bg-transparent outline-none ">
+                    <option selected>Tour Type</option>
+                    <option value="US">HoneyMoon</option>
+                    <option value="US">HoneyMoon</option>
+                    <option value="US">HoneyMoon</option>
+                    <option value="US">Hill Tracking</option>
+                </select>
+            </span>
+            <button class="py-4 px-8 bg-primary text-white text-lg font-jost ">Find Now</button>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+<!-- destination-start -->
+<section class="travel py-32">
+    <div class="container mx-auto">
+        <div class="title mb-10">
+            <h2 class="text-2xl font-cursiv text-orange-400">Travel Category</h2>
+            <span class="text-5xl font-heading">Our Popular Tours Type</span>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="asset/images/p3-2.webp" class="w-full max-w-full">
+                        </div>
+                        <h3 class="text-3xl pt-4">Family Tours of Taj Mahal
+                            New Delhi India</h3>
+                        <ul class="columns-3 py-5">
+                            <li><span>05 People</span></li>
+                            <li><span>03 Days</span></li>
+                            <li><span>From <strong class="text-orange-400">$250</strong></span></li>
+                        </ul>
+                        <a href="">Explore Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="asset/images/p3-1.webp" class="w-full max-w-full">
+                        </div>
+                        <h3 class="text-3xl pt-4">Family Tours of Taj Mahal
+                            New Delhi India</h3>
+                        <ul class="columns-3 py-5">
+                            <li><span>05 People</span></li>
+                            <li><span>03 Days</span></li>
+                            <li><span>From <strong class="text-orange-400">$250</strong></span></li>
+                        </ul>
+                        <a href="">Explore Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="asset/images/p3-2.webp" class="w-full max-w-full">
+                        </div>
+                        <h3 class="text-3xl pt-4">Family Tours of Taj Mahal
+                            New Delhi India</h3>
+                        <ul class="columns-3 py-5">
+                            <li><span>05 People</span></li>
+                            <li><span>03 Days</span></li>
+                            <li><span>From <strong class="text-orange-400">$250</strong></span></li>
+                        </ul>
+                        <a href="">Explore Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="c_img">
+                            <img src="asset/images/p3-3 (1).webp" class="w-full max-w-full">
+                        </div>
+                        <h3 class="text-3xl pt-4">Family Tours of Taj Mahal
+                            New Delhi India</h3>
+                        <ul class="columns-3 py-5">
+                            <li><span>05 People</span></li>
+                            <li><span>03 Days</span></li>
+                            <li><span>From <strong class="text-orange-400">$250</strong></span></li>
+                        </ul>
+                        <a href="">Explore Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- explore-strat -->
+<section class="exlpore bg-theme py-32">
+    <div class="container mx-auto pt-30">
+        <div class="destination ">
+            <div class="explore-hading text-center font-jost mb-9">
+                <h5 class="text-2xl italic text-primary font-cursiv">Explore Our Tours</h5>
+                <h2 class="text-5xl font-heading">Top Attractions Destinations</h2>
+            </div>
+            <div class="flex px-20 gap-x-8">
+                <div class="country-map w-1/5">
+                    <div class="map-img bg-white flex justify-center items-center px-3 py-6 lg:min-h-[200px]">
+                        <img class="" src="asset/images/m-1.png">
+                    </div>
+                    <h5
+                        class="text-center lg:text-[22px] font-jost text-md font-medium text-dark-1 leading-1.6 lg:mt-7 mt-5">
+                        Beauty of France</h5>
+                    <p
+                        class="text-center font-medium text-orange-500 lg:text-md text-sm mt-2 text-secondary-1 font-jost">
+                        10 Tours Place</p>
+                </div>
+                <div class="country-map w-1/5">
+                    <div class="map-img bg-white flex justify-center items-center px-6 py-6 lg:min-h-[200px]">
+                        <img class="" src="asset/images/m-2.png">
+                    </div>
+                    <h5
+                        class="text-center lg:text-[22px] font-jost text-md font-medium text-dark-1 leading-1.6 lg:mt-7 mt-5">
+                        Beauty of France</h5>
+                    <p
+                        class="text-center font-medium text-orange-500 lg:text-md text-sm mt-2 text-secondary-1 font-jost">
+                        10 Tours Place</p>
+                </div>
+                <div class="country-map w-1/5">
+                    <div class="map-img bg-white flex justify-center items-center px-6 py-6 lg:min-h-[200px]">
+                        <img class="" src="asset/images/m-3.png">
+                    </div>
+                    <h5
+                        class="text-center lg:text-[22px] font-jost text-md font-medium text-dark-1 leading-1.6 lg:mt-7 mt-5">
+                        Beauty of France</h5>
+                    <p
+                        class="text-center font-medium text-orange-500 lg:text-md text-sm mt-2 text-secondary-1 font-jost">
+                        10 Tours Place</p>
+                </div>
+                <div class="country-map w-1/5">
+                    <div class="map-img bg-white flex justify-center items-center px-6 py-6 lg:min-h-[200px]">
+                        <img class="" src="asset/images/m-4.png">
+                    </div>
+                    <h5
+                        class="text-center lg:text-[22px] font-jost text-md font-medium text-dark-1 leading-1.6 lg:mt-7 mt-5">
+                        Beauty of France</h5>
+                    <p
+                        class="text-center font-medium text-orange-500 lg:text-md text-sm mt-2 text-secondary-1 font-jost">
+                        10 Tours Place</p>
+                </div>
+                <div class="country-map w-1/5">
+                    <div class="map-img bg-white flex justify-center items-center px-6 py-6 lg:min-h-[200px]">
+                        <img class="" src="asset/images/m-5.png">
+                    </div>
+                    <h5
+                        class="text-center lg:text-[22px] font-jost text-md font-medium text-dark-1 leading-1.6 lg:mt-7 mt-5">
+                        Beauty of France</h5>
+                    <p
+                        class="text-center font-medium text-orange-500 lg:text-md text-sm mt-2 text-secondary-1 font-jost">
+                        10 Tours Place</p>
+                </div>
+            </div>
+        </div>
+        <div class="expo-btn text-center mt-10">
+            <button class="py-4 px-10 text-white bg-primary text-lg font-jost">View All<i
+                    class="fa-solid fa-angle-right px-2"></i></button>
+        </div>
+    </div>
+</section>
+<!------travel-start---->
+<div class="travel py-32">
+    <div class="container mx-auto">
+        <div class="travel-content text-center pb-10">
+            <h5 class="text-2xl pb-3 text-primary font-cursiv">Why Choose Us</h5>
+            <h2 class="text-5xl pb-3 font-heading">Why Travel With Arid?</h2>
+        </div>
+        <div class="flex flex-wrap px-20 gap-base">
+            <div class="w-4/12 ">
+                <div class="travel-logo text-center">
+                    <img class="inline pb-2" src="asset/images/travel1.png">
+                    <h4 class="font-jost text-2xl pb-4 font-medium">Best Price Granted </h4>
+                    <p class="mt-2 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                        inventore.</p>
+                </div>
+            </div>
+            <div class="w-4/12">
+                <div class="travel-logo text-center">
+                    <img class="inline pb-2" src="asset/images/travel2.png">
+                    <h4 class="font-jost text-2xl pb-4 font-medium">Best Price Granted </h4>
+                    <p class="mt-2 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                        inventore.</p>
+                </div>
+            </div>
+            <div class="w-4/12">
+                <div class="travel-logo text-center">
+                    <img class="inline pb-2" src="asset/images/travel3.png">
+                    <h4 class="font-jost text-2xl pb-4 font-medium">Best Price Granted </h4>
+                    <p class="mt-2 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                        inventore.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="partner pt-32">
+    <div class="container mx-auto">
+        <div class="flex flex-wrap px-20 justify-around">
+            <div class="flex justify-center items-center w-2/12 shadow-2 text-center ">
+                <div class="partner1 py-5 px-5">
+                    <img class="" src="asset/images/p2-1.png">
+                </div>
+            </div>
+            <div class="flex justify-center items-center w-2/12 text-center shadow-2 ">
+                <div class="partner1 text-center  py-5 px-5">
+                    <img src="asset/images/p2-2.png">
+                </div>
+            </div>
+            <div class="flex justify-center items-center w-2/12 text-center shadow-2">
+                <div class="partner1 py-5 px-5">
+                    <img src="asset/images/p2-3.png">
+                </div>
+            </div>
+            <div class="flex justify-center items-center w-2/12 text-center shadow-2">
+                <div class="partner1 py-5 px-5">
+                    <img src="asset/images/p2-4.png">
+                </div>
+            </div>
+            <div class="flex justify-center items-center w-2/12 text-center shadow-2">
+                <div class="partner1 py-5 px-5">
+                    <img src="asset/images/p2-5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- package-start---->
+<div class="package pt-32">
+    <div class="container mx-auto">
+        <div class="package-content text-center pb-10">
+            <h5 class="text-2xl pb-3 text-primary font-cursiv">Explore Our Tours</h5>
+            <h2 class="text-5xl pb-3 font-heading">New and Most Popular Tours</h2>
+        </div>
+        <div class="package-details ">
+            <div class="flex flex-wrap px-20">
+                <div class="w-4/12">
+                    <div class="pack1 relative gap-base">
+                        <img src="asset/images/p4-1.webp">
+                        <div class="package-content absolute top-80 text-white font-jost pl-6">
+                            <div class="flex">
+                                <ul class="flex flex-wrap">
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+
+                                </ul>
+                                <span class="ml-3">10 Review</span>
+                            </div>
+                            <h4 class="text-2xl font-jost font-medium hover:text-primary duration-200">A tour of the
+                                Amazon Forest.</h4>
+                            <ul class="flex mt-2">
+                                <li><a href="">03 days</a></li>
+                                <li><a href="">/ From $2500</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4/12">
+                    <div class="pack1 relative">
+                        <img src="asset/images/p4-2.webp">
+                        <div class="package-content absolute top-80 text-white font-jost pl-6">
+                            <div class="flex">
+                                <ul class="flex flex-wrap">
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+
+                                </ul>
+                                <span class="ml-3">10 Review</span>
+                            </div>
+                            <h4 class="text-2xl font-jost font-medium hover:text-primary duration-200">New York, City
+                                Tours.</h4>
+                            <ul class="flex mt-2">
+                                <li><a href="">03 days</a></li>
+                                <li><a href="">/ From $2500</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4/12">
+                    <div class="pack1 relative">
+                        <img src="asset/images/p4-3.webp">
+                        <div class="package-content absolute top-80 text-white font-jost pl-6">
+                            <div class="flex">
+                                <ul class="flex flex-wrap">
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+                                    <li><a href=""><i class="fa-solid fa-star text-xs p-1"></i></a></li>
+
+                                </ul>
+                                <span class="ml-3">10 Review</span>
+                            </div>
+                            <h4 class="text-2xl font-jost font-semibold hover:text-primary duration-200">Epcot Center
+                                Drive, Orlando.</h4>
+                            <ul class="flex mt-2 font-semibold">
+                                <li><a href="">03 days</a></li>
+                                <li><a href="">/ From $2500</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- tips-start -->
+<div class="travel-tips pt-32">
+    <div class="container mx-auto">
+        <div class="flex">
+            <div class="w-1/2 shadow-custom">
+                <div class="travel-card">
+                    <div class="travel-img ">
+                        <img class="w-full py-1 p-1" src="asset/images/b3-1.webp">
+                    </div>
+                    <div class="travel-icon px-7 py-6 bg-white">
+                        <ul class="flex flex-wrap pb-4 font-jost">
+                            <li class="pr-5 text-xl"><a href=""><i class="fa-regular fa-user pr-2"></i>Jahid Hassan</a>
+                            </li>
+                            <li class="text-xl"><a href=""><i class="fa-regular fa-clock pr-2"></i>8 Sep,2020</a></li>
+                        </ul>
+                        <h4 class="text-4xl bold hover:text-orange-700 font-heading pb-3 font-jost">Indulge in the
+                            purest forms of
+                            body care with Soulflower!</h4>
+                        <p class="pb-4 text-xl">Soulflower brings to you four new soaps with the most
+                            unique ingredients to pamper...</p>
+                        <div class="read-more font-jost text-primary">
+                            <a href="" class="text-lg">Read More<i class="fa-solid fa-angle-right pl-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/2 shadow-custom ">
+                <div class="travel-card overflow-hidden shadow-custom-2 bg-white group wow fadeInRight"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    <div class="travel-img ">
+                        <img class="w-full py-1 px-1" src="asset/images/b3-2.webp">
+                    </div>
+                    <div class="travel-icon px-7 py-6 bg-white">
+                        <ul class="flex flex-wrap pb-4 font-jost">
+                            <li class="pr-5 text-xl"><a href=""><i class="fa-regular fa-user pr-2"></i>Jahid Hassan</a>
+                            </li>
+                            <li class="text-xl"><a href=""><i class="fa-regular fa-clock pr-2"></i>8 Sep,2020</a></li>
+                        </ul>
+                        <h4 class="text-4xl bold hover:text-orange-700 font-heading pb-3 font-jost">Benefit from a 15%
+                            discount
+                            mak your reservations.</h4>
+                        <p class="pb-4 text-xl">Soulflower brings to you four new soaps with the most
+                            unique ingredients to pamper...</p>
+                        <div class="read-more font-jost text-primary">
+                            <a href="" class="text-lg">Read More<i class="fa-solid fa-angle-right pl-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- slick-slider -->
+<section class="py-32 testimonial">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
+                    style="width: 1016px; margin: auto;">
+                    <div class="grid items-center grid-cols-12 gap-6">
+                        <div class="order-2 col-span-12 text-center lg:col-span-4 lg:order-1">
+                            <div class="lg:max-w-[200px] max-w-[80px] mx-auto">
+                                <img src="asset/images/testi-3.webp">
+                            </div>
+                            <h5 class="mt-4 font-semibold lg:text-lg text-2md text-dark-1">Elenar Pena</h5>
+                            <p class="mt-1 text-dark-2">Director of Creative Solution</p>
+                        </div>
+                        <div class="order-1 col-span-12 lg:col-span-8 lg:order-2">
+                            <div>
+                                <div class="mb-4 lg:mb-6">
+                                    <svg class="lg:max-w-[30px] max-w-[20px]" width="30" height="27" viewBox="0 0 30 27"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.714 26.8074C21.8987 26.8074 20.2813 25.9812 18.85 24.3176C17.4188 22.6651 16.709 20.4768 16.709 17.7525C16.709 15.4413 18.0122 11.902 20.6071 7.14565C23.2136 2.37816 25.1452 7.37518e-07 26.4135 8.484e-07C27.1234 9.10453e-07 27.4841 0.35728 27.4841 1.06068C27.4841 1.25049 26.7394 2.79128 25.2616 5.6942C23.7721 8.59713 23.0391 10.8748 23.0391 12.5049C23.0391 13.7666 23.8769 14.8049 25.5641 15.6088C27.2397 16.4127 28.3684 17.2501 28.9269 18.1209C29.4855 18.9918 29.7647 19.9408 29.7647 20.9457C29.7647 22.7656 29.2062 24.2059 28.0891 25.2443C26.9372 26.2826 25.4943 26.8074 23.714 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M7.00493 26.8074C5.1897 26.8074 3.56064 25.9812 2.14104 24.3176C0.709797 22.6651 -1.79014e-06 20.4768 -1.55197e-06 17.7525C-1.34992e-06 15.4413 1.30324 11.902 3.89809 7.14565C6.49295 2.37816 8.43617 7.37514e-07 9.69287 8.47378e-07C10.4027 9.09431e-07 10.7634 0.35728 10.7634 1.06068C10.7634 1.25049 10.0187 2.79128 8.54091 5.6942C7.05149 8.59713 6.31841 10.8748 6.31841 12.5049C6.31841 13.7666 7.15621 14.8049 8.84344 15.6088C10.519 16.4127 11.6477 17.2501 12.2063 18.1209C12.7648 18.9918 13.0441 19.9408 13.0441 20.9457C13.0441 22.7656 12.4855 24.2059 11.3685 25.2443C10.2514 26.2826 8.78526 26.8074 7.00493 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                                <p
+                                    class="text-dark-2 lg:text-[25px] text-2md italic leading-[1.8] font-serif font-normal">
+                                    Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas
+                                    suscipit tellus
+                                    sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia
+                                    condimentum.
+                                    Donec placerat, orci.
+                                </p>
+                                <div class="text-end">
+                                    <svg class="ml-auto lg:max-w-[30px] max-w-[20px]" width="30" height="27"
+                                        viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.05119 0.000241621C7.86642 0.00024178 9.48384 0.826454 10.9151 2.49005C12.3463 4.14249 13.0562 6.33085 13.0562 9.05513C13.0562 11.3663 11.7529 14.9056 9.15803 19.662C6.55154 24.4295 4.61993 26.8076 3.35159 26.8076C2.64178 26.8076 2.28106 26.4503 2.28106 25.7469C2.28106 25.5571 3.02578 24.0163 4.50357 21.1134C5.993 18.2105 6.72608 15.9328 6.72608 14.3027C6.72608 13.0411 5.88828 12.0027 4.20104 11.1988C2.52543 10.3949 1.39673 9.55756 0.838193 8.68668C0.279657 7.8158 0.000388935 6.86677 0.000389023 5.86191C0.000389182 4.042 0.558927 2.6017 1.676 1.56335C2.82798 0.524995 4.27085 0.000241465 6.05119 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M22.7602 0.000241621C24.5754 0.00024178 26.2045 0.826454 27.6241 2.49005C29.0553 4.14249 29.7651 6.33085 29.7651 9.05513C29.7651 11.3663 28.4619 14.9056 25.867 19.662C23.2722 24.4295 21.329 26.8076 20.0723 26.8076C19.3625 26.8076 19.0017 26.4503 19.0017 25.7469C19.0017 25.5571 19.7464 24.0163 21.2242 21.1134C22.7136 18.2105 23.4467 15.9328 23.4467 14.3027C23.4467 13.0411 22.6089 12.0027 20.9217 11.1988C19.2461 10.3949 18.1174 9.55756 17.5589 8.68668C17.0003 7.8158 16.7211 6.86677 16.7211 5.86191C16.7211 4.042 17.2796 2.6017 18.3967 1.56335C19.5137 0.524995 20.9799 0.000241465 22.7602 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide swiper-slide-active" style="width: 1016px; margin: auto;">
+                    <div class="grid items-center grid-cols-12 gap-6">
+                        <div class="order-2 col-span-12 text-center lg:col-span-4 lg:order-1">
+                            <div class="lg:max-w-[200px] max-w-[80px] mx-auto">
+                                <img src="asset/images/testi-3.webp">
+                            </div>
+                            <h5 class="mt-4 font-semibold lg:text-lg text-2md text-dark-1">Elenar Pena</h5>
+                            <p class="mt-1 text-dark-2">Director of Creative Solution</p>
+                        </div>
+                        <div class="order-1 col-span-12 lg:col-span-8 lg:order-2">
+                            <div>
+                                <div class="mb-4 lg:mb-6">
+                                    <svg class="lg:max-w-[30px] max-w-[20px]" width="30" height="27" viewBox="0 0 30 27"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.714 26.8074C21.8987 26.8074 20.2813 25.9812 18.85 24.3176C17.4188 22.6651 16.709 20.4768 16.709 17.7525C16.709 15.4413 18.0122 11.902 20.6071 7.14565C23.2136 2.37816 25.1452 7.37518e-07 26.4135 8.484e-07C27.1234 9.10453e-07 27.4841 0.35728 27.4841 1.06068C27.4841 1.25049 26.7394 2.79128 25.2616 5.6942C23.7721 8.59713 23.0391 10.8748 23.0391 12.5049C23.0391 13.7666 23.8769 14.8049 25.5641 15.6088C27.2397 16.4127 28.3684 17.2501 28.9269 18.1209C29.4855 18.9918 29.7647 19.9408 29.7647 20.9457C29.7647 22.7656 29.2062 24.2059 28.0891 25.2443C26.9372 26.2826 25.4943 26.8074 23.714 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M7.00493 26.8074C5.1897 26.8074 3.56064 25.9812 2.14104 24.3176C0.709797 22.6651 -1.79014e-06 20.4768 -1.55197e-06 17.7525C-1.34992e-06 15.4413 1.30324 11.902 3.89809 7.14565C6.49295 2.37816 8.43617 7.37514e-07 9.69287 8.47378e-07C10.4027 9.09431e-07 10.7634 0.35728 10.7634 1.06068C10.7634 1.25049 10.0187 2.79128 8.54091 5.6942C7.05149 8.59713 6.31841 10.8748 6.31841 12.5049C6.31841 13.7666 7.15621 14.8049 8.84344 15.6088C10.519 16.4127 11.6477 17.2501 12.2063 18.1209C12.7648 18.9918 13.0441 19.9408 13.0441 20.9457C13.0441 22.7656 12.4855 24.2059 11.3685 25.2443C10.2514 26.2826 8.78526 26.8074 7.00493 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                                <p
+                                    class="text-dark-2 lg:text-[25px] text-2md italic leading-[1.8] font-serif font-normal">
+                                    Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas
+                                    suscipit tellus
+                                    sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia
+                                    condimentum.
+                                    Donec placerat, orci.
+                                </p>
+                                <div class="text-end">
+                                    <svg class="ml-auto lg:max-w-[30px] max-w-[20px]" width="30" height="27"
+                                        viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.05119 0.000241621C7.86642 0.00024178 9.48384 0.826454 10.9151 2.49005C12.3463 4.14249 13.0562 6.33085 13.0562 9.05513C13.0562 11.3663 11.7529 14.9056 9.15803 19.662C6.55154 24.4295 4.61993 26.8076 3.35159 26.8076C2.64178 26.8076 2.28106 26.4503 2.28106 25.7469C2.28106 25.5571 3.02578 24.0163 4.50357 21.1134C5.993 18.2105 6.72608 15.9328 6.72608 14.3027C6.72608 13.0411 5.88828 12.0027 4.20104 11.1988C2.52543 10.3949 1.39673 9.55756 0.838193 8.68668C0.279657 7.8158 0.000388935 6.86677 0.000389023 5.86191C0.000389182 4.042 0.558927 2.6017 1.676 1.56335C2.82798 0.524995 4.27085 0.000241465 6.05119 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M22.7602 0.000241621C24.5754 0.00024178 26.2045 0.826454 27.6241 2.49005C29.0553 4.14249 29.7651 6.33085 29.7651 9.05513C29.7651 11.3663 28.4619 14.9056 25.867 19.662C23.2722 24.4295 21.329 26.8076 20.0723 26.8076C19.3625 26.8076 19.0017 26.4503 19.0017 25.7469C19.0017 25.5571 19.7464 24.0163 21.2242 21.1134C22.7136 18.2105 23.4467 15.9328 23.4467 14.3027C23.4467 13.0411 22.6089 12.0027 20.9217 11.1988C19.2461 10.3949 18.1174 9.55756 17.5589 8.68668C17.0003 7.8158 16.7211 6.86677 16.7211 5.86191C16.7211 4.042 17.2796 2.6017 18.3967 1.56335C19.5137 0.524995 20.9799 0.000241465 22.7602 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide swiper-slide-next swiper-slide-duplicate-prev"
+                    style="width: 1016px; margin: auto;">
+                    <div class="grid items-center grid-cols-12 gap-6">
+                        <div class="order-2 col-span-12 text-center lg:col-span-4 lg:order-1">
+                            <div class="lg:max-w-[200px] max-w-[80px] mx-auto">
+                                <img src="asset/images/testi-3.webp">
+                            </div>
+                            <h5 class="mt-4 font-semibold lg:text-lg text-2md text-dark-1">Elenar Pena</h5>
+                            <p class="mt-1 text-dark-2">Director of Creative Solution</p>
+                        </div>
+                        <div class="order-1 col-span-12 lg:col-span-8 lg:order-2">
+                            <div>
+                                <div class="mb-4 lg:mb-6">
+                                    <svg class="lg:max-w-[30px] max-w-[20px]" width="30" height="27" viewBox="0 0 30 27"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.714 26.8074C21.8987 26.8074 20.2813 25.9812 18.85 24.3176C17.4188 22.6651 16.709 20.4768 16.709 17.7525C16.709 15.4413 18.0122 11.902 20.6071 7.14565C23.2136 2.37816 25.1452 7.37518e-07 26.4135 8.484e-07C27.1234 9.10453e-07 27.4841 0.35728 27.4841 1.06068C27.4841 1.25049 26.7394 2.79128 25.2616 5.6942C23.7721 8.59713 23.0391 10.8748 23.0391 12.5049C23.0391 13.7666 23.8769 14.8049 25.5641 15.6088C27.2397 16.4127 28.3684 17.2501 28.9269 18.1209C29.4855 18.9918 29.7647 19.9408 29.7647 20.9457C29.7647 22.7656 29.2062 24.2059 28.0891 25.2443C26.9372 26.2826 25.4943 26.8074 23.714 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M7.00493 26.8074C5.1897 26.8074 3.56064 25.9812 2.14104 24.3176C0.709797 22.6651 -1.79014e-06 20.4768 -1.55197e-06 17.7525C-1.34992e-06 15.4413 1.30324 11.902 3.89809 7.14565C6.49295 2.37816 8.43617 7.37514e-07 9.69287 8.47378e-07C10.4027 9.09431e-07 10.7634 0.35728 10.7634 1.06068C10.7634 1.25049 10.0187 2.79128 8.54091 5.6942C7.05149 8.59713 6.31841 10.8748 6.31841 12.5049C6.31841 13.7666 7.15621 14.8049 8.84344 15.6088C10.519 16.4127 11.6477 17.2501 12.2063 18.1209C12.7648 18.9918 13.0441 19.9408 13.0441 20.9457C13.0441 22.7656 12.4855 24.2059 11.3685 25.2443C10.2514 26.2826 8.78526 26.8074 7.00493 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                                <p
+                                    class="text-dark-2 lg:text-[25px] text-2md italic leading-[1.8] font-serif font-normal">
+                                    Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas
+                                    suscipit
+                                    tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia
+                                    condimentum. Donec placerat, orci.
+                                </p>
+                                <div class="text-end">
+                                    <svg class="ml-auto lg:max-w-[30px] max-w-[20px]" width="30" height="27"
+                                        viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.05119 0.000241621C7.86642 0.00024178 9.48384 0.826454 10.9151 2.49005C12.3463 4.14249 13.0562 6.33085 13.0562 9.05513C13.0562 11.3663 11.7529 14.9056 9.15803 19.662C6.55154 24.4295 4.61993 26.8076 3.35159 26.8076C2.64178 26.8076 2.28106 26.4503 2.28106 25.7469C2.28106 25.5571 3.02578 24.0163 4.50357 21.1134C5.993 18.2105 6.72608 15.9328 6.72608 14.3027C6.72608 13.0411 5.88828 12.0027 4.20104 11.1988C2.52543 10.3949 1.39673 9.55756 0.838193 8.68668C0.279657 7.8158 0.000388935 6.86677 0.000389023 5.86191C0.000389182 4.042 0.558927 2.6017 1.676 1.56335C2.82798 0.524995 4.27085 0.000241465 6.05119 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M22.7602 0.000241621C24.5754 0.00024178 26.2045 0.826454 27.6241 2.49005C29.0553 4.14249 29.7651 6.33085 29.7651 9.05513C29.7651 11.3663 28.4619 14.9056 25.867 19.662C23.2722 24.4295 21.329 26.8076 20.0723 26.8076C19.3625 26.8076 19.0017 26.4503 19.0017 25.7469C19.0017 25.5571 19.7464 24.0163 21.2242 21.1134C22.7136 18.2105 23.4467 15.9328 23.4467 14.3027C23.4467 13.0411 22.6089 12.0027 20.9217 11.1988C19.2461 10.3949 18.1174 9.55756 17.5589 8.68668C17.0003 7.8158 16.7211 6.86677 16.7211 5.86191C16.7211 4.042 17.2796 2.6017 18.3967 1.56335C19.5137 0.524995 20.9799 0.000241465 22.7602 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                    style="width: 1016px; margin: auto;">
+                    <div class="grid items-center grid-cols-12 gap-6">
+                        <div class="order-2 col-span-12 text-center lg:col-span-4 lg:order-1">
+                            <div class="lg:max-w-[200px] max-w-[80px] mx-auto">
+                                <img src="asset/images/testi-3.webp">
+                            </div>
+                            <h5 class="mt-4 font-semibold lg:text-lg text-2md text-dark-1">Elenar Pena</h5>
+                            <p class="mt-1 text-dark-2">Director of Creative Solution</p>
+                        </div>
+                        <div class="order-1 col-span-12 lg:col-span-8 lg:order-2">
+                            <div>
+                                <div class="mb-4 lg:mb-6">
+                                    <svg class="lg:max-w-[30px] max-w-[20px]" width="30" height="27" viewBox="0 0 30 27"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.714 26.8074C21.8987 26.8074 20.2813 25.9812 18.85 24.3176C17.4188 22.6651 16.709 20.4768 16.709 17.7525C16.709 15.4413 18.0122 11.902 20.6071 7.14565C23.2136 2.37816 25.1452 7.37518e-07 26.4135 8.484e-07C27.1234 9.10453e-07 27.4841 0.35728 27.4841 1.06068C27.4841 1.25049 26.7394 2.79128 25.2616 5.6942C23.7721 8.59713 23.0391 10.8748 23.0391 12.5049C23.0391 13.7666 23.8769 14.8049 25.5641 15.6088C27.2397 16.4127 28.3684 17.2501 28.9269 18.1209C29.4855 18.9918 29.7647 19.9408 29.7647 20.9457C29.7647 22.7656 29.2062 24.2059 28.0891 25.2443C26.9372 26.2826 25.4943 26.8074 23.714 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M7.00493 26.8074C5.1897 26.8074 3.56064 25.9812 2.14104 24.3176C0.709797 22.6651 -1.79014e-06 20.4768 -1.55197e-06 17.7525C-1.34992e-06 15.4413 1.30324 11.902 3.89809 7.14565C6.49295 2.37816 8.43617 7.37514e-07 9.69287 8.47378e-07C10.4027 9.09431e-07 10.7634 0.35728 10.7634 1.06068C10.7634 1.25049 10.0187 2.79128 8.54091 5.6942C7.05149 8.59713 6.31841 10.8748 6.31841 12.5049C6.31841 13.7666 7.15621 14.8049 8.84344 15.6088C10.519 16.4127 11.6477 17.2501 12.2063 18.1209C12.7648 18.9918 13.0441 19.9408 13.0441 20.9457C13.0441 22.7656 12.4855 24.2059 11.3685 25.2443C10.2514 26.2826 8.78526 26.8074 7.00493 26.8074Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                                <p
+                                    class="text-dark-2 lg:text-[25px] text-2md italic leading-[1.8] font-serif font-normal">
+                                    Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas
+                                    suscipit tellus
+                                    sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia
+                                    condimentum.
+                                    Donec placerat, orci.
+                                </p>
+                                <div class="text-end">
+                                    <svg class="ml-auto lg:max-w-[30px] max-w-[20px]" width="30" height="27"
+                                        viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.05119 0.000241621C7.86642 0.00024178 9.48384 0.826454 10.9151 2.49005C12.3463 4.14249 13.0562 6.33085 13.0562 9.05513C13.0562 11.3663 11.7529 14.9056 9.15803 19.662C6.55154 24.4295 4.61993 26.8076 3.35159 26.8076C2.64178 26.8076 2.28106 26.4503 2.28106 25.7469C2.28106 25.5571 3.02578 24.0163 4.50357 21.1134C5.993 18.2105 6.72608 15.9328 6.72608 14.3027C6.72608 13.0411 5.88828 12.0027 4.20104 11.1988C2.52543 10.3949 1.39673 9.55756 0.838193 8.68668C0.279657 7.8158 0.000388935 6.86677 0.000389023 5.86191C0.000389182 4.042 0.558927 2.6017 1.676 1.56335C2.82798 0.524995 4.27085 0.000241465 6.05119 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                        <path
+                                            d="M22.7602 0.000241621C24.5754 0.00024178 26.2045 0.826454 27.6241 2.49005C29.0553 4.14249 29.7651 6.33085 29.7651 9.05513C29.7651 11.3663 28.4619 14.9056 25.867 19.662C23.2722 24.4295 21.329 26.8076 20.0723 26.8076C19.3625 26.8076 19.0017 26.4503 19.0017 25.7469C19.0017 25.5571 19.7464 24.0163 21.2242 21.1134C22.7136 18.2105 23.4467 15.9328 23.4467 14.3027C23.4467 13.0411 22.6089 12.0027 20.9217 11.1988C19.2461 10.3949 18.1174 9.55756 17.5589 8.68668C17.0003 7.8158 16.7211 6.86677 16.7211 5.86191C16.7211 4.042 17.2796 2.6017 18.3967 1.56335C19.5137 0.524995 20.9799 0.000241465 22.7602 0.000241621Z"
+                                            fill="#FF7C5B"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- insta-feed-start -->
+    <div class="insta-feed pt-32">
+        <div class="container mx-auto">
+            <div class="flex">
+                <div class="w-1/3 mr-7">
+                    <div class="insta-img relative">
+                        <img class="img1" src="asset/images/insta-1.webp">
+                        <a href="#"
+                            class="insta-icon flex text-center justify-center items-center absolute top-36 left-32 text-xl bg-white h-10 w-10 rounded-full "><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <div class="w-1/3 mr-7">
+                    <div class="insta-img">
+                        <img src="asset/images/insta-2.webp">
+                    </div>
+
+                </div>
+                <div class="w-1/3 mr-7">
+                    <div class="insta-img">
+                        <img src="asset/images/insta-3.webp">
+                    </div>
+
+                </div>
+                <div class="w-1/3 mr-7">
+                    <div class="insta-img">
+                        <img src="asset/images/insta-4.webp">
+                    </div>
+
+                </div>
+                <div class="w-1/3 mr-7">
+                    <div class="insta-img">
+                        <img src="asset/images/insta-5.webp">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- footer-star -->
+
+        <footer class="pt-32">
+            <div class="pt-20 bg-cover bg-no-repeat bg-fixed overflow-hidden my-14"
+                style="background: linear-gradient( rgba(8, 8, 11, .8) 100%, rgba(8, 8, 11, .8)100%), url('asset/images/footer-bg-1.webp')">
+                <div class="container mx-auto px-11">
+                    <div class="main-footer mb-8 border-b-2">
+                        <div class="flex justify-between items-center">
+                            <div class="footer-icon mb-8">
+                                <img src="asset/images/logo-2.png">
+                            </div>
+                            <div class="footer-media">
+                                <ul
+                                    class="flex flex-wrap text-white items-center justify-center align-middle lg:gap-x-9 gap-y-5 gap-x-7">
+
+                                    <a href="#" class="inline-flex items-center group">
+                                        <div
+                                            class="social_icon mr-3 rounded-full border flex h-10 w-10 justify-center items-center bg-white text-black">
+                                            <i class="text-xl fa-brands fa-whatsapp"></i>
+                                        </div>
+                                        <h5 class="font-serif font-bold text-white lg:text-2md text-xl">whatsapp </h5>
+                                    </a>
+                                    <a href="#" class="inline-flex items-center group ">
+                                        <div
+                                            class="social_icon mr-3 rounded-full border flex h-10 w-10 justify-center items-center bg-white text-black ">
+                                            <i class="text-xl fa-brands fa-twitter"></i>
+                                        </div>
+                                        <h5 class="font-serif font-bold text-white lg:text-2md text-xl">Twitter</h5>
+                                    </a>
+                                    <a href="#" class="inline-flex items-center group">
+                                        <div
+                                            class="social_icon mr-3 rounded-full border flex h-10 w-10 justify-center items-center bg-white text-black">
+                                            <i class="text-xl fa-brands fa-pinterest"></i>
+                                        </div>
+                                        <h5 class="font-serif font-bold text-white lg:text-2md text-xl">Pinterest</h5>
+                                    </a>
+
+                                    <a href="#" class="inline-flex items-center group">
+                                        <div
+                                            class="social_icon mr-3 rounded-full border flex h-10 w-10 justify-center items-center bg-white text-black">
+                                            <i class="text-xl fa-brands fa-instagram"></i>
+                                        </div>
+                                        <h5 class="font-serif font-bold text-white lg:text-2md text-xl">Instagram</h5>
+                                    </a>
+
+                            </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sub-footer py-14 px-11">
+                    <div class="flex">
+                        <div class="w-4/12 text-white lg:text-start ">
+                            <h3 class="semibold text-white text-2xl mb-4">Newsletter</h3>
+                            <form action="">
+                                <div class="form-label">
+                                    <div class="relative">
+                                        <input type="email"
+                                            class="email h-12 py-3 pr-5 pl-12 w-full bg-transparent border border-white outline-none"
+                                            placeholder="Email Address">
+                                        <div class="absolute top-3 left-3">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <button
+                                class="s-btn w-full p-3 text-white bg-primary mt-4 text-base font-jost">Subscribe</button>
+                        </div>
+                        <div class="w-8/12 ml-6">
+                            <div class="flex justify-between items-center">
+                                <div class="w-5/12">
+                                    <h3 class="text-white lg:text-[25px] text-2md font-semibold lg:leading-1.35">Navigation</h3>
+                                    <ul>
+                                        <li class="p-3 text-lg text-white font-jost hover:text-primary"><a href="">About Company</a></li>
+                                        <li class="p-3 text-lg text-white font-jost hover:text-primary"><a href="">Online Quarey</a></li>
+                                        <li class="p-3 text-lg text-white font-jost hover:text-primary"><a href="">Become partner</a></li>
+                                        <li class="p-3 text-lg text-white font-jost hover:text-primary"><a href="">Help & Support</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="w-5/12">
+                                    <h3 class="text-white lg:text-[25px] text-2md font-semibold lg:leading-1.35">Destinations</h3>
+                                    <ul>
+                                        <li class="p-3  text-white font-jost py-3 hover:text-primary text-xl leading-1.5 pl-[10px]"><a href="" class="">About Company</a></li>
+                                        <li class="p-3  text-white font-jost py-3 hover:text-primary text-xl leading-1.5 pl-[10px]"><a href="" class="">Online Quarey</a></li>
+                                        <li class="p-3  text-white font-jost py-3 hover:text-primary text-xl leading-1.5 pl-[10px] "><a href="">Become partner</a></li>
+                                        <li class="p-3  text-white font-jost py-3 hover:text-primary text-xl leading-1.5 pl-[10px]"><a href="">Help & Support</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="w-5/12">
+                                    <h3 class="text-white lg:text-[25px] text-2md font-semibold lg:leading-1.35">Contact Us</h3>
+                                    <ul>
+                                        <li class="p-3  text-white font-jost py-3 hover:text-primary text-base"><i class="fa-solid fa-location-dot mr-2 text-primary"></i><a href="">3891 Rachhivew Dr.Richardosn,California</a></li>
+                                        <li class="p-3  text-white font-jost py-3 hover:text-primary text-base"><i class="fa-solid fa-phone mr-2 text-primary"></i><a href="">+88 0123 6939</a></li>
+                                        <li class="p-3  text-white font-jost py-3 hover:text-primary text-base"><i class="fa-regular fa-envelope mr-2 text-primary"></i><a href="">example@gmail.com</a></li>
+                                        
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="relative flex flex-wrap justify-center  text-white gap-4 text-dark-6 lg:justify-between border-t-2 py-7 px-11">
+                <button id="scrollTop"
+                    class="text-white flex justify-center items-center absolute left-1/2 -translate-x-1/2 top-0 w-[50px] h-[50px] rounded-full bg-primary -translate-y-1/2 duration-300 hover:bg-primary-2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.92 15.0501L13.4 8.53014C12.63 7.76014 11.37 7.76014 10.6 8.53014L4.07996 15.0501"
+                            stroke="currentColor" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <p class="text-white">© Arid 2019 | All rights reserved.</p>
+                <p><a href="about.html" class="text-white duration-200 hover:text-primary-1">Privacy Policy</a> | <a
+                        href="about.html" class="text-white duration-200 hover:text-primary-1">Terms of Use</a></p>
+            </div>
+            </div>
+    </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="asset/js/main.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+
+
+    </body>
+
+</html>
